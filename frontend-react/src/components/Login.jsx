@@ -27,7 +27,7 @@ const Login = () => {
       
       setIsLoggedIn(true);
 
-      navigate('/');
+      navigate('/dashboard');
 
     } catch(error) {
       console.error('Invalid credentials');
